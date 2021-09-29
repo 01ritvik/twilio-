@@ -5,7 +5,7 @@ auth_token = "200102726ea717d7e35454fcb74f9619"
 client = Client(accound_sid,auth_token)
 
 message = client.messages.create(
-    to="+918448344321",
+    to="your registered number",
     from_="+14153603343",
     body = "hii"
 
