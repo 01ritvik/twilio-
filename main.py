@@ -1,6 +1,6 @@
 from twilio.rest import  Client
 accound_sid = "AC75c8a114a077e29ffa28b8c1796be8b3" 
-auth_token = "200102726ea717d7e35454fcb74f9619"  #different for different number
+auth_token = "200102726ea717d7e35454fcb74f9619"  #unique number 
 
 client = Client(accound_sid,auth_token)
 
